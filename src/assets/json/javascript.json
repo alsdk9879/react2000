@@ -1,0 +1,327 @@
+{
+    "data": {
+      "type": "html",
+      "htmlRefer": [
+        {
+          "id": 1,
+          "title": ".toJSON()",
+          "desc1": ".toJSON() 메서드는 JSON serialization 이전에 객체 형식의 날짜를 변환하는데 사용합니다.",
+          "desc2": ".toJSON() 메서드는 JSON serialization 이전에 객체 형식의 날짜를 변환하는데 사용합니다.",
+          "syntax": "Date.toJSON()",
+          "definition": [
+            ".toJSON() 메서드는 JSON serialization 이전에 객체 형식의 날짜를 변환하는데 사용합니다."
+          ]
+        },
+        {
+          "id": 2,
+          "title": ".toISOString()",
+          "desc1": ".toISOString() 메서드는 날짜를 ISO 형식의 문자열 값으로 가져옵니다.",
+          "desc2": ".toISOString() 메서드는 날짜를 ISO 형식의 문자열 값으로 가져옵니다.",
+          "syntax": "Date.toISOString()",
+          "definition": [
+            ".toISOString() 메서드는 날짜를 ISO 형식의 문자열 값으로 가져옵니다."
+          ]
+        },
+        {
+            "id": 3,
+            "title": ".toGMTString()",
+            "desc1": ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다.",
+            "desc2": ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다.",
+            "syntax": "Date.toGMTString()",
+            "definition": [
+              ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다."
+            ]
+        },
+        {
+            "id": 3,
+            "title": ".toGMTString()",
+            "desc1": ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다.",
+            "desc2": ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다.",
+            "syntax": "Date.toGMTString()",
+            "definition": [
+              ".toGMTString() 메서드는 GMT를 사용하여 문자열로 변환된 날짜를 가져옵니다."
+            ]
+        },
+        {
+            "id": 4,
+            "title": ".toDateString()",
+            "desc1": ".toDateString() 메서드는 날짜를 문자열 값으로 가져옵니다.",
+            "desc2": ".toDateString() 메서드는 날짜를 문자열 값으로 가져옵니다.",
+            "syntax": "Date.toDateString()",
+            "definition": [
+              ".toDateString() 메서드는 날짜를 문자열 값으로 가져옵니다."
+            ]
+        },
+        {
+            "id": 5,
+            "title": ".setYear()",
+            "desc1": ".setYear() 메서드는 로컬 시간을 사용하여 연도 값을 가져옵니다.",
+            "desc2": ".setYear() 메서드는 로컬 시간을 사용하여 연도 값을 가져옵니다.",
+            "syntax": "Date.setYear()",
+            "definition": [
+              ".setYear() 메서드는 로컬 시간을 사용하여 연도 값을 가져옵니다."
+            ]
+        },
+        {
+            "id": 6,
+            "title": ".setUTCSeconds()",
+            "desc1": ".setUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 수정합니다.",
+            "desc2": ".setUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 수정합니다.",
+            "syntax": "Date.setUTCSeconds()",
+            "definition": [
+              ".setUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 7,
+            "title": ".setUTCMonth()",
+            "desc1": ".setUTCMonth() 메서드는 UTC를 사용하여 월 정보를 수정합니다.",
+            "desc2": ".setUTCMonth() 메서드는 UTC를 사용하여 월 정보를 수정합니다.",
+            "syntax": "Date.setUTCMonth()",
+            "definition": [
+              ".setUTCMonth() 메서드는 UTC를 사용하여 월 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 8,
+            "title": ".setUTCMinutes()",
+            "desc1": ".setUTCMinutes() 메서드는 UTC를 사용하여 분 정보를 수정합니다.",
+            "desc2": ".setUTCMinutes() 메서드는 UTC를 사용하여 분 정보를 수정합니다.",
+            "syntax": "Date.setUTCMinutes()",
+            "definition": [
+              ".setUTCMinutes() 메서드는 UTC를 사용하여 분 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 9,
+            "title": ".setUTCMilliseconds()",
+            "desc1": ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다.",
+            "desc2": ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다.",
+            "syntax": "Date.setUTCMilliseconds()",
+            "definition": [
+              ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 10,
+            "title": ".setUTCHours()",
+            "desc1": ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다.",
+            "desc2": ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다.",
+            "syntax": "Date.setUTCHours()",
+            "definition": [
+              ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 11,
+            "title": ".setUTCFullYear()",
+            "desc1": ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다.",
+            "desc2": ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다.",
+            "syntax": "Date.setUTCFullYear()",
+            "definition": [
+              ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 12,
+            "title": ".setUTCDate()",
+            "desc1": ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다.",
+            "desc2": ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다.",
+            "syntax": "Date.setUTCDate()",
+            "definition": [
+              ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 13,
+            "title": ".setTime()",
+            "desc1": ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다.",
+            "desc2": ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다.",
+            "syntax": "Date.setTime()",
+            "definition": [
+              ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 14,
+            "title": ".setSeconds()",
+            "desc1": ".setSeconds() 메서드는 현재 초 정보를 수정합니다.",
+            "desc2": ".setSeconds() 메서드는 현재 초 정보를 수정합니다.",
+            "syntax": "Date.setSeconds()",
+            "definition": [
+              ".setSeconds() 메서드는 현재 초 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 15,
+            "title": ".setMonth()",
+            "desc1": ".setMonth() 메서드는 현재 월 정보를 수정합니다.",
+            "desc2": ".setMonth() 메서드는 현재 월 정보를 수정합니다.",
+            "syntax": "Date.setMonth()",
+            "definition": [
+              ".setMonth() 메서드는 현재 월 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 16,
+            "title": ".setMinutes()",
+            "desc1": ".setMinutes() 메서드는 현재 분 정보를 수정합니다.",
+            "desc2": ".setMinutes() 메서드는 현재 분 정보를 수정합니다.",
+            "syntax": "Date.setMinutes()",
+            "definition": [
+              ".setMinutes() 메서드는 현재 분 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 17,
+            "title": ".setUTCMilliseconds()",
+            "desc1": ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다.",
+            "desc2": ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다.",
+            "syntax": "Date.setUTCMilliseconds()",
+            "definition": [
+              ".setUTCMilliseconds() 메서드는 UTC를 사용하여 초(1/1000단위) 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 18,
+            "title": ".setUTCHours()",
+            "desc1": ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다.",
+            "desc2": ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다.",
+            "syntax": "Date.setUTCHours()",
+            "definition": [
+              ".setUTCHours() 메서드는 UTC를 사용하여 시간 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 19,
+            "title": ".setUTCFullYear()",
+            "desc1": ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다.",
+            "desc2": ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다.",
+            "syntax": "Date.setUTCFullYear()",
+            "definition": [
+              ".setUTCFullYear() 메서드는 UTC를 사용하여 년도 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 20,
+            "title": ".setUTCDate()",
+            "desc1": ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다.",
+            "desc2": ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다.",
+            "syntax": "Date.setUTCDate()",
+            "definition": [
+              ".setUTCDate() 메서드는 UTC를 사용하여 일 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 21,
+            "title": ".setTime()",
+            "desc1": ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다.",
+            "desc2": ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다.",
+            "syntax": "Date.setTime()",
+            "definition": [
+              ".setTime() 메서드는 1970년 1월 1일 자정 이후의 초 정보를 밀리세컨드 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 22,
+            "title": ".setSeconds()",
+            "desc1": ".setSeconds() 메서드는 현재 초 정보를 수정합니다.",
+            "desc2": ".setSeconds() 메서드는 현재 초 정보를 수정합니다.",
+            "syntax": "Date.setSeconds()",
+            "definition": [
+              ".setSeconds() 메서드는 현재 초 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 23,
+            "title": ".setMonth()",
+            "desc1": ".setMonth() 메서드는 현재 월 정보를 수정합니다.",
+            "desc2": ".setMonth() 메서드는 현재 월 정보를 수정합니다.",
+            "syntax": "Date.setMonth()",
+            "definition": [
+              ".setMonth() 메서드는 현재 월 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 23,
+            "title": ".setMinutes()",
+            "desc1": ".setMinutes() 메서드는 현재 분 정보를 수정합니다.",
+            "desc2": ".setMinutes() 메서드는 현재 분 정보를 수정합니다.",
+            "syntax": "Date.setMinutes()",
+            "definition": [
+              ".setMinutes() 메서드는 현재 분 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 24,
+            "title": ".setMilliseconds()",
+            "desc1": ".setMilliseconds() 메서드는 현재 초(1/1000단위) 정보를 수정합니다.",
+            "desc2": ".setMilliseconds() 메서드는 현재 초(1/1000단위) 정보를 수정합니다.",
+            "syntax": "Date.setMilliseconds()",
+            "definition": [
+              ".setMilliseconds() 메서드는 현재 초(1/1000단위) 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 25,
+            "title": ".setHours()",
+            "desc1": ".setHours() 메서드는 현재 시간 정보를 수정합니다.",
+            "desc2": ".setHours() 메서드는 현재 시간 정보를 수정합니다.",
+            "syntax": "Date.setHours()",
+            "definition": [
+              ".setHours() 메서드는 현재 시간 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 26,
+            "title": ".setFullYear()",
+            "desc1": ".setFullYear() 메서드는 현재 년도 정보를 수정합니다.",
+            "desc2": ".setFullYear() 메서드는 현재 년도 정보를 수정합니다.",
+            "syntax": "Date.setFullYear()",
+            "definition": [
+              ".setFullYear() 메서드는 현재 년도 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 27,
+            "title": ".setData()",
+            "desc1": ".setData() 메서드는 현재 일 정보를 수정합니다.",
+            "desc2": ".setData() 메서드는 현재 일 정보를 수정합니다.",
+            "syntax": "Date.setData()",
+            "definition": [
+              ".setData() 메서드는 현재 일 정보를 수정합니다."
+            ]
+        },
+        {
+            "id": 28,
+            "title": ".getYear()",
+            "desc1": ".getYear() 메서드는 연도 값을 반환합니다.",
+            "desc2": ".getYear() 메서드는 연도 값을 반환합니다.",
+            "syntax": "Date.getYear()",
+            "definition": [
+              ".getYear() 메서드는 연도 값을 반환합니다."
+            ]
+        },
+        {
+            "id": 29,
+            "title": ".getUTCSeconds()",
+            "desc1": ".getUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 가져옵니다.",
+            "desc2": ".getUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 가져옵니다.",
+            "syntax": "Date.getUTCSeconds()",
+            "definition": [
+              ".getUTCSeconds() 메서드는 UTC를 사용하여 초 정보를 가져옵니다."
+            ]
+        },
+        {
+            "id": 30,
+            "title": ".getUTCMonth()",
+            "desc1": ".getUTCMonth() 메서드는 UTC를 사용하여 월 정보를 가져옵니다.",
+            "desc2": ".getUTCMonth() 메서드는 UTC를 사용하여 월 정보를 가져옵니다.",
+            "syntax": "Date.getUTCMonth()",
+            "definition": [
+              ".getUTCMonth() 메서드는 UTC를 사용하여 월 정보를 가져옵니다."
+            ]
+        }
+      ]
+    }
+  }

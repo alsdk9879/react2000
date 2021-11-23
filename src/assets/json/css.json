@@ -1,0 +1,401 @@
+{
+    "data": {
+      "type": "html",
+      "cssRefer": [
+        {
+          "id": 1,
+          "title": "align-content",
+          "desc1": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+          "default1": "align-content : stretch",
+          "apply": "flexbox",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+            "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+          ]
+        },
+        {
+          "id": 2,
+          "title": "align-items",
+          "desc1": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+          "default1": "align-items : stretch",
+          "apply": "flexbox",
+          "version": "CSS3",
+          "use": "★★☆",
+          "definition": [
+            "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+            "align-content 속성은 컨테이너의 높이 값을 기준으로 정렬하고 align-items 속성은 아이템의 높이 값을 기준으로 정렬합니다."
+          ]
+        },
+        {
+          "id": 3,
+          "title": "align-self",
+          "desc1": "align-self 속성은 개별적인 콘텐츠 아이템의 정렬 상태를 설정합니다.",
+          "default1": "align-self : auto",
+          "apply": "flexbox",
+          "version": "CSS3",
+          "use": "★★☆",
+          "definition": [
+            "align-self 속성은 개별적인 플렉스 아이템의 정렬 상태를 설정합니다.",
+            "align-self 속성은 플렉스 아이템에 설정하고, align-item와 align-content는 플렉스 컨테이너에 설정합니다."
+          ]
+        },
+        {
+          "id": 4,
+          "title": "all",
+          "desc1": "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+          "default1": "all : auto",
+          "apply": "모든 속성",
+          "version": "CSS3",
+          "use": "☆☆☆",
+          "definition": [
+            "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "all 속성은 모든 요소에 설정 가능합니다.문법(Syntax)"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "animation",
+          "desc1": "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
+          "default1": "animation-name: none; animation-duration: 0s; animation-timing-function: ease; animation-delay: 0s; animation-iteration-count: 1; animation-direction: normal; animation-fill-mode: none; animation-play-state: running;",
+          "apply": "안됨",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다."
+          ]
+        },
+        {
+          "id": 6,
+          "title": "animation-delay",
+          "desc1": "animation-delay 속성은 애니메이션 지연 시간을 설정합니다.",
+          "default1": "animation-delay: 0s;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "animation-delay 속성은 애니메이션 지연 시간을 설정합니다."
+          ]
+        },
+        {
+          "id": 7,
+          "title": "animation-direction",
+          "desc1": "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+          "default1": "animation-direction : normal;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★☆",
+          "definition": [
+            "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+            "animation-direction 속성에는 움직임 속성을 두개 이상 설정 할 수 있습니다."
+          ]
+        },
+        {
+          "id": 8,
+          "title": "animation-duration",
+          "desc1": "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
+          "default1": "animation-duration : 0s;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
+            "animation-duration 속성에는 시간 속성을 두개 이상 설정 할 수 있습니다."
+          ]
+        },
+        {
+          "id": 9,
+          "title": "animation-fill-mode",
+          "desc1": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
+          "default1": "animation-fill-mode : none;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★☆☆",
+          "definition": [
+            "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다."
+          ]
+        },
+        {
+          "id": 10,
+          "title": "animation-iteration-count",
+          "desc1": "animation-iteration-count 속성은 애니메이션 반복 횟수 설정합니다.",
+          "default1": "animation-iteration-count : none;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★☆",
+          "definition": [
+            "animation-iteration-count 속성은 애니메이션 반복 횟수 설정합니다.문법(Syntax)"
+          ]
+        },
+        {
+          "id": 11,
+          "title": "animation-name",
+          "desc1": "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다.",
+          "default1": "animation-name : none;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다."
+          ]
+        },
+        {
+          "id": 12,
+          "title": "animation-play-state",
+          "desc1": "animation-play-state 속성은 애니메이션 진행상태를 설정합니다.",
+          "default1": "animation-play-state : running;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★☆",
+          "definition": [
+            "animation-play-state 속성은 애니메이션 진행상태를 설정합니다."
+          ]
+        },
+        {
+          "id": 13,
+          "title": "animation-timing-function",
+          "desc1": "animation-timing-function 속성은 애니메이션 움직임의 속도를 설정합니다.",
+          "default1": "animation-timing-function : linear;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★☆",
+          "definition": [
+            "animation-timing-function 속성은 애니메이션 움직임의 속도를 설정합니다."
+          ]
+        },
+        {
+          "id": 14,
+          "title": "backdrop-filter",
+          "desc1": "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+          "default1": "backdrop-filter : none",
+          "apply": "background",
+          "version": "CSS3",
+          "use": "★☆☆",
+          "definition": [
+            "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+            "요소의 배경을 반투명 설정하여야 효과를 확인할 수 있습니다."
+          ]
+        },
+        {
+          "id": 15,
+          "title": "background-attachment",
+          "desc1": "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+          "default1": "background-attachment: scroll;",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★☆☆",
+          "definition": [
+            "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+            "background-attachment 속성의 multiple backgrounds는 익스플로러9 버전 이상부터 지원됩니다."
+          ]
+        },
+        {
+          "id": 16,
+          "title": "background-blend-mode",
+          "desc1": "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+          "default1": "background-blend-mode : normal;",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★☆☆",
+          "definition": [
+            "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+            "blend-mode는 크게 background-blend-mode와 mix-blend-mode로 설정됩니다.",
+            "포토샵의 브렌드 모드와 동일한 효과입니다."
+          ]
+        },
+        {
+          "id": 17,
+          "title": "background-clip",
+          "desc1": "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+          "default1": "background-clip : border-box",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★☆☆",
+          "definition": [
+            "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+            "clip은 걸다, 끼우다의 뜻으로 background-clip 배경 이미지를 어디에 설정하지를 설정합니다.",
+            "background-clip 기준점은 보더(border), 패딩(padding), 컨텐츠, 텍스트(text)에 설정할 수 있습니다.",
+            "텍스트(text)속성은 베타 버전이기 때문에 접두사(-webkit)을 표현해야 합니다.(2021년 기준)"
+          ]
+        },
+        {
+          "id": 18,
+          "title": "background-color",
+          "desc1": "background-color 속성은 백그라운드 색을 설정합니다.",
+          "default1": "background-color : transparent",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★★★",
+          "definition": [
+            "background-color 속성은 백그라운드 색을 설정합니다."
+          ]
+        },
+        {
+          "id": 19,
+          "title": "background-image",
+          "desc1": "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+          "default1": "background-image : transparent",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★★★",
+          "definition": [
+            "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
+            "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+            "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+            "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정합니다.",
+            "background-color 속성은 백그라운드 색을 설정합니다.",
+            "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+            "background-origin 속성은 백그라운드 이미지의 위치 기준점을 설정합니다.",
+            "background-position 속성은 백그라운드 이미지의 위치 영역을 설정합니다.",
+            "background-repeat 속성은 백그라운드 이미지 반복 여부를 설정합니다.",
+            "background-size 속성은 백그라운드 이미지 사이즈를 설정합니다."
+          ]
+        },
+        {
+          "id": 20,
+          "title": "border",
+          "desc1": "border 속성은 테두리 속성을 일괄적으로 설정합니다.",
+          "default1": "border-width : medium border-style : none border-color : currentColor border-image : none border-radius :0",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★★★",
+          "definition": [
+            "border 속성은 테두리 속성을 일괄적으로 설정합니다."
+          ]
+        },
+        {
+          "id": 21,
+          "title": "border-bottom",
+          "desc1": "border-bottom 속성은 테두리 아래쪽 속성을 일괄적으로 설정합니다.",
+          "default1": "border-bottom-width : medium border-bottom-style : none border-bottom-color : currentColor",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★★★",
+          "definition": [
+            "border-bottom 속성은 테두리 아래쪽 속성을 일괄적으로 설정합니다."
+          ]
+        },
+        {
+          "id": 22,
+          "title": "border-bottom-color",
+          "desc1": "border-bottom-color 속성은 테두리 아래쪽 색 속성을 설정합니다.",
+          "default1": "border-bottom-color : currentColor",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★★☆",
+          "definition": [
+            "border-bottom-color 속성은 테두리 아래쪽 색 속성을 설정합니다."
+          ]
+        },
+        {
+          "id": 23,
+          "title": "border-bottom-left-radius",
+          "desc1": "border-bottom-left-radius 속성은 아래부분 왼쪽 모서리 굴곡을 설정합니다.",
+          "default1": "border-bottom-left-radius : 0",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★★★",
+          "definition": [
+            "border-radius 속성은 모서리 굴곡을 설정합니다.",
+            "border-top-left-radius 속성은 윗부분 왼쪽 모서리 굴곡을 설정합니다.",
+            "border-top-right-radius 속성은 윗부분 오른쪽 모서리 굴곡을 설정합니다.",
+            "border-bottom-left-radius 속성은 아랫부분 왼쪽 모서리 굴곡을 설정합니다.",
+            "border-bottom-right-radius 속성은 아랫부분 오른쪽 모서리 굴곡을 설정합니다."
+          ]
+        },
+        {
+          "id": 24,
+          "title": "border-bottom-right-radius",
+          "desc1": "border-bottom-right-radius 속성은 아래부분 오른쪽 모서리 굴곡을 설정합니다.",
+          "default1": "border-bottom-right-radius : 0",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★★★",
+          "definition": [
+            "border-bottom-right-radius 속성은 아래부분 오른쪽 모서리 굴곡을 설정합니다."
+          ]
+        },
+        {
+          "id": 25,
+          "title": "border-bottom-style",
+          "desc1": "border-bottom-style 속성은 테두리 아래쪽 스타일 속성을 설정합니다.",
+          "default1": "border-bottom-style : none",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★☆☆",
+          "definition": [
+            "border-bottom-style 속성은 테두리 아래쪽 스타일 속성을 설정합니다."
+          ]
+        },
+        {
+          "id": 26,
+          "title": "border-bottom-width",
+          "desc1": "border-bottom-width 속성은 테두리 아래쪽 두께 속성을 설정합니다.",
+          "default1": "border-bottom-width : medium",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★☆☆",
+          "definition": [
+            "border-bottom-width 속성은 테두리 아래쪽 두께 속성을 설정합니다."
+          ]
+        },
+        {
+          "id": 27,
+          "link": "https://webzz.tistory.com/392",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "border-collapse",
+          "desc1": "border-collapse 속성은 테이블의 테두리 분리 여부를 설정합니다.",
+          "default1": "border-collapse : separate",
+          "apply": "table",
+          "version": "CSS11",
+          "use": "★☆☆",
+          "definition": [
+            "border-collapse 속성은 테이블의 분리 여부를 설정합니다."
+          ]
+        },
+        {
+          "id": 28,
+          "link": "https://webzz.tistory.com/393",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "border-color",
+          "desc1": "border-color 속성은 테두리 색 속성을 설정합니다.",
+          "default1": "border-color : currentcolor",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★★☆",
+          "definition": [
+            "border-color는 테두리 색 속성을 설정합니다."
+          ]
+        },
+        {
+          "id": 29,
+          "link": "https://webzz.tistory.com/394",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "border-image",
+          "desc1": "border-image 속성은 테두리 이미지 속성을 설정합니다.",
+          "default1": "border-image-source : none border-image-slice : 100% border-image-width : 1 border-image-outset : 0s border-image-repeat : stretch",
+          "apply": "border",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "border-image 테두리 이미지 속성을 설정합니다."
+          ]
+        },
+        {
+          "id": 30,
+          "link": "https://webzz.tistory.com/395",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "border-image-outset",
+          "desc1": "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다.",
+          "default1": "border-image-outset : 0s",
+          "apply": "border",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다."
+          ]
+        }
+      ]
+    }
+  }
